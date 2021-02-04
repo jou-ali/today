@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.nav_bar{
+    text-align: right;
+    margin: 30px;
+}
+.nav_bar a{
+    text-decoration: none;
+}
+#logo{
+    /* padding-right: 1500px; */
+}
+.college_name{
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url(./common.jpg);
+    
+    
+
+}
+.college_name h1,h3{
+    text-align: center;
+}
+
+.college_name p{
+    color: lightblue;
+}
